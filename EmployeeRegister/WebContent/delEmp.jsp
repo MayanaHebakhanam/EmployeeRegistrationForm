@@ -18,7 +18,7 @@ try{
     String sql="delete from employee where firstname='"+str1+"'" ;
     String url = "jdbc:mysql://localhost:3306/empdb";
 	String username = "root";
-	String pswd = "Mayana_25";
+	String pswd = "Your Password";
 	Connection connection = DriverManager.getConnection(url, username, pswd);
 	Statement st=connection.createStatement();
 	k=st.executeUpdate(sql);
