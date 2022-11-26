@@ -18,7 +18,7 @@
 		String emp_sql = "select *from employee";
 		String url = "jdbc:mysql://localhost:3306/empdb";
 		String username = "root";
-		String pswd = "Mayana_25";
+		String pswd = "Your Password";
 
 		Connection con = DriverManager.getConnection(url, username, pswd);
 		Statement st = con.prepareStatement(emp_sql);
