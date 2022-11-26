@@ -6,7 +6,7 @@
 <%!String driverName = "com.mysql.cj.jdbc.Driver";%>
 <%!String url = "jdbc:mysql://localhost:3306/empdb";%>
 <%!String user = "root";%>
-<%!String psw = "Mayana_25";%>
+<%!String psw = "Your Password";%>
 <%
 	String first_name = request.getParameter("first_name");
 	String last_name = request.getParameter("last_name");
