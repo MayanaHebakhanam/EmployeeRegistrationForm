@@ -12,7 +12,7 @@ public class EmployeeDAO {
 
 		String url = "jdbc:mysql://localhost:3306/empdb";
 		String username = "root";
-		String pswd = "Mayana_25";
+		String pswd = "Your Password";
 
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		try (Connection con = DriverManager.getConnection(url, username, pswd);
