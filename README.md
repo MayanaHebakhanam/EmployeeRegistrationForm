@@ -1,4 +1,5 @@
-Created Employee Registration Form using Servlets and JSP 
+Created Employee Registration Form using Servlets and JSP .
+
 Actions that can be performed:
 
 Employee can register themselves
